@@ -17,3 +17,7 @@ CREATE TABLE
         `password` varchar(255) DEFAULT NULL,
         PRIMARY KEY (`id`)
     ) ENGINE = InnoDB AUTO_INCREMENT = 6 DEFAULT CHARSET = latin1;
+
+-- drop user admin@localhost;
+-- flush privileges;
+-- create user admin@localhost identified by 'admins_password'
